@@ -1,0 +1,67 @@
+html {
+    position: relative; 
+}
+
+body {
+    margin-bottom: 120px; margin-top: 30px;
+}
+
+.jumbotron {
+    background-image: url('./img/header.jpg'); background-attachment: fixed; 
+    background-repeat: no-repeat; background-size: cover;
+    background-position:0 -100px; overflow: hidden;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.jumbotron img {
+    width: 200px; border: 5px solid #666; height: 200px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5); 
+}
+
+ hr {
+    width: 250px; border-top: 3px solid #999;
+}
+
+.section {
+    min-height: 600px; 
+}
+
+.portofolio {
+    background-color: #eee; padding-top: 50px ;
+}
+/* .portofolio .thumbnail {
+    opacity: 0; transition: 0.5s;
+}
+
+.portofolio .thumbnail.muncul {
+    opacity: 1;
+
+} */
+
+.contact {
+    min-height: 800px; padding-top: 70px;
+}
+
+footer {
+    position: absolute; width: 100%; height: 120px;
+     background-color: #333; padding-top: 30px;}
+
+footer p {
+    font-size: 1em; color: #aaa; 
+}
+
+.about {
+    padding-top: 70px;
+}
+
+/* .kiri, .kanan {
+    opacity: 0;transform: translate(-50px, 0);
+}
+
+.kanan {
+    transform: translate(50px, 0);
+}
+
+.kiri.muncul, .kanan.pmuncul{
+    opacity: 1; transform: translate(0,0); transition: 1s;
+} */
