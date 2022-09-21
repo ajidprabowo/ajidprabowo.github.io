@@ -7,18 +7,24 @@ body {
 }
 
 .jumbotron {
-    background-image: url('./img/header.jpg'); background-attachment: fixed; 
+    background-image: url('./img/backround.jpg'); background-attachment: fixed; 
     background-repeat: no-repeat; background-size: cover;
     background-position:0 -100px; overflow: hidden;
     box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    
 }
+
+.jumbotron h1, p{
+    color: white;
+}
+
 
 .jumbotron img {
     width: 200px; border: 5px solid #666; height: 200px;
     box-shadow: 1px 1px 10px rgba(0,0,0,0.5); 
 }
 
- hr {
+hr {
     width: 250px; border-top: 3px solid #999;
 }
 
